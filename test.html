@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <button>Remove a</button>
+
+    <script src="build/build.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+
+    <script>
+      var within = require('within-document');
+      var buttons = document.getElementsByTagName('button');
+      var a = buttons[0];
+
+      removable(a);
+
+      console.log(within(a));
+      function removable(el) {
+        el.addEventListener('click', function(){
+          el.parentNode.removeChild(el);
+          console.log(within(a));
+        }, false);
+      }
+    </script>
+  </body>
+</html>
