@@ -3,10 +3,13 @@
   "repo": "component/within-document",
   "description": "check if an element is within the document",
   "version": "0.0.1",
-  "keywords": ["dom"],
+  "keywords": [
+    "dom"
+  ],
   "dependencies": {},
   "development": {},
   "scripts": [
     "index.js"
-  ]
+  ],
+  "license": "MIT"
 }
