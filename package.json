@@ -1,13 +1,10 @@
 {
   "name": "within-document",
-  "repo": "component/within-document",
   "description": "check if an element is within the document",
   "version": "0.0.1",
   "keywords": [
     "dom"
   ],
-  "dependencies": {},
-  "development": {},
   "component": {
     "scripts": {
       "within-document/index.js": "index.js"
@@ -16,5 +13,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/component/within-document.git"
-  }
+  },
+  "license": "MIT"
 }
