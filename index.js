@@ -9,6 +9,10 @@
 
 module.exports = function(el) {
   var node = el;
+
+  if ('function' == typeof document.contains)
+    return document.contains(el);
+
   while (node = node.parentNode) {
     if (node == document) return true;
   }
