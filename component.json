@@ -6,7 +6,9 @@
   "keywords": [
     "dom"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "component/within-element": "0.0.1"
+  },
   "development": {},
   "scripts": [
     "index.js"

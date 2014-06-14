@@ -3,6 +3,7 @@
   "description": "check if an element is within the document",
   "version": "0.0.1",
   "keywords": [
+    "browser",
     "dom"
   ],
   "component": {
@@ -14,5 +15,8 @@
     "type": "git",
     "url": "https://github.com/component/within-document.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "within-element": "0.0.1"
+  }
 }

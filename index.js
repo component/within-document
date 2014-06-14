@@ -1,16 +1,18 @@
 
 /**
- * Check if `el` is within the document.
- *
- * @param {Element} el
- * @return {Boolean}
- * @api private
+ * Module dependencies.
  */
 
-module.exports = function(el) {
-  var node = el;
-  while (node = node.parentNode) {
-    if (node == document) return true;
-  }
-  return false;
+var withinElement = require('within-element');
+
+/**
+ * Check if the DOM element `child` is within the page global `document`.
+ *
+ * @param {DOMElement} child - the element to check if it with within `document`
+ * @return {Boolean} True if `child` is within the `document`. False otherwise.
+ * @public
+ */
+
+module.exports = function within (child) {
+  return withinElement(child, document);
 };
