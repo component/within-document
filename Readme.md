@@ -5,7 +5,15 @@
 
 ## Installation
 
-    $ component install component/within-document
+``` bash
+$ component install component/within-document
+```
+
+Or:
+
+``` bash
+$ npm install within-document
+```
 
 # License
 
