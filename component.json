@@ -2,7 +2,7 @@
   "name": "within-document",
   "repo": "component/within-document",
   "description": "check if an element is within the document",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "dom"
   ],
