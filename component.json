@@ -7,7 +7,7 @@
     "dom"
   ],
   "dependencies": {
-    "component/within-element": "0.0.1"
+    "component/within-element": "0.1.0"
   },
   "development": {},
   "scripts": [

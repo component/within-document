@@ -17,6 +17,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "within-element": "0.0.1"
+    "within-element": "0.1.0"
   }
 }
