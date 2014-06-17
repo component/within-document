@@ -1,7 +1,7 @@
 {
   "name": "within-document",
   "description": "Check if an element is within the document",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "browser",
     "dom"
